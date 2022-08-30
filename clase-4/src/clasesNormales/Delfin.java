@@ -1,4 +1,4 @@
-package clasesAbstractas;
+package clasesNormales;
 
 import java.util.Objects;
 
@@ -7,8 +7,8 @@ public class Delfin extends Animal {
     private String tipo;
     private String ubicacion;
 
-    public Delfin(String tipo, String ubicacion) {
-        super();
+    public Delfin(String medio, String color, int edad, String tipo, String ubicacion) {
+        super(medio, color, edad);
         this.tipo = tipo;
         this.ubicacion = ubicacion;
     }
@@ -16,11 +16,6 @@ public class Delfin extends Animal {
     @Override
     public void moverse(){
         System.out.println("Estoy nadando");
-    }
-
-    @Override
-    void comer() {
-        System.out.println("Estoy comiendo");
     }
 
     public String getTipo() {

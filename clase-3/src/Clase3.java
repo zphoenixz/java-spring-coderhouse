@@ -3,9 +3,8 @@
 
 import clasesAbstractas.Delfin;
 import clasesAbstractas.Perro;
-import clasesNormales.Animal;
 
-public class main {
+public class Clase3 {
     public static void main(String[] args) {
 //        final String medio = "agua";
 //        final Delfin delfin = new Delfin(medio, "plateado", 2, "de agua dulce", "amaszonas");
